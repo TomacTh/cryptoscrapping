@@ -1,0 +1,12 @@
+<div align="center">
+  <h1>Choose a cryptocurrency</h1>
+    <%= form_tag do %>
+        <%= select_tag "crypto_name", options_for_select(@cryptohash.keys.sort), class: "form-control"%>
+        <%= submit_tag "Valider" , class: "btn btn-primary"%>
+    <% end %>
+    <% if @crypto_name %>
+
+        <h3>The cryptocurrency <strong><em><%= @crypto_name %></em></strong> worth <strong><%= @cryptohash[@crypto_name] %></strong>.</h3>
+    <div>
+    <% end %>
+</div>
