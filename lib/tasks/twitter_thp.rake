@@ -1,4 +1,4 @@
-namespace :twitter do
+namespace :twitter_thp do
   desc "spam twitter"
   task twitter_thp: :environment do
      puts "Début de mon programme"
