@@ -21,8 +21,8 @@ def chomage
 end
 
 def polemploi
-  client.search('#polemploi').take(10).each do |tweet|
-  client.update("@#{tweet.user.name} Apprend à coder, réalise un site, monte ton projet ou devient développeur c'est possible gratuitement en 3 mois sur http://thehackingproject06.herokuapp.com/")
+  @client.search('#polemploi').take(10).each do |tweet|
+  @client.update("@#{tweet.user.name} Apprend à coder, réalise un site, monte ton projet ou devient développeur c'est possible gratuitement en 3 mois sur http://thehackingproject06.herokuapp.com/")
  end
 end
 
