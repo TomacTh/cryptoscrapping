@@ -1,6 +1,6 @@
 require 'twitter'
 
-class Twitterthp
+class TwitterThp
 
 
 def initialize
