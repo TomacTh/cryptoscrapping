@@ -1,5 +1,5 @@
 desc "Twitter bot "
-task :update_feed => :environment do
+task :twitterthp => :environment do
   puts "Updating feed..."
   Twitterthp.new.polemploi
   puts "done."
