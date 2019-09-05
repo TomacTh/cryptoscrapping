@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### production link : https://crytposcrapping06.herokuapp.com/ 
 
-Things you may want to cover:
+The purpose of this exercice is to do a scrapping crytpocurrency webabb with rails, so we have to learn the repo ``services`` of rails the repo where we write ruby code in.
 
-* Ruby version
+After clone this repo, don't forget to do a ```bundle install```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
